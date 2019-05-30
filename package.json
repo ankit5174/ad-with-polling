@@ -1,0 +1,41 @@
+{
+  "name": "ad-with-polling",
+  "version": "1.0.0",
+  "description": "An HOC to poll api using react and redux",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "rm -rf ./dist && npm run build",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "keywords": [
+    "poll",
+    "polling",
+    "redux polling",
+    "react redux polling",
+    "react",
+    "redux"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-2": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "react": ">=15.0.1",
+    "react-dom": ">=15.0.1",
+    "react-redux": ">=6.0.1",
+    "redux": ">=4.0.1",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.3"
+  },
+  "peerDependencies": {
+    "react": ">=15.0.1",
+    "react-dom": ">=15.0.1",
+    "react-redux": ">=6.0.1",
+    "redux": ">=4.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
